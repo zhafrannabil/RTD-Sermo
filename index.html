@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>RTD Bendungan Sermo</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <style>
+
+    body{
+      background: linear-gradient(to bottom right,#d6dce5,#f3f3f3);
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+
+    .dashboard-container{
+      border: 8px solid #2d2d2d;
+      border-radius: 10px;
+      padding: 15px;
+      background: rgba(255,255,255,0.2);
+    }
+
+    /* ================= HEADER ================= */
+
+    .header{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .title h2{
+      margin: 0;
+      color: #2b3c73;
+      font-weight: bold;
+    }
+
+    .title p{
+      margin: 0;
+      color: #f0a500;
+      font-size: 13px;
+      font-weight: bold;
+    }
+
+    /* ================= DROPDOWN ================= */
+
+    .dropdown-menu{
+      max-height: 500px;
+      overflow-y: auto;
+      width: 420px;
+      padding: 10px;
+    }
+
+    .accordion-button{
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .contact-item{
+      background: #f8f9fa;
+      border-radius: 8px;
+      padding: 8px;
+      margin-bottom: 8px;
+      border: 1px solid #ddd;
+    }
+
+    .contact-name{
+      font-weight: bold;
+      color: #2b3c73;
+      font-size: 14px;
+    }
+
+    .contact-phone{
+      font-size: 13px;
+      color: #444;
+    }
+
+    /* ================= MAIN CONTENT ================= */
+
+    .map-container{
+      border: 5px solid #2b3c73;
+      border-radius: 18px;
+      overflow: hidden;
+      height: 560px;
+      background: white;
+    }
+
+    .map-container iframe{
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+
+    .info-box{
+      background: rgba(255,255,255,0.7);
+      border-radius: 18px;
+      padding: 18px;
+      height: 100%;
+    }
+
+    .info-title{
+      font-size: 24px;
+      font-weight: bold;
+      color: #2b3c73;
+      margin-bottom: 18px;
+    }
+
+    .info-table{
+      width: 100%;
+      font-size: 14px;
+    }
+
+    .info-table td{
+      padding: 5px 0;
+      vertical-align: top;
+    }
+
+    .info-table td:first-child{
+      width: 52%;
+      font-weight: bold;
+      color: #333;
+    }
+
+    /* ================= STATUS ================= */
+
+    .status-box{
+      margin-top: 20px;
+      background: #e8f5e9;
+      border-left: 6px solid #28a745;
+      border-radius: 10px;
+      padding: 12px;
+    }
+
+    .status-label{
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    .status-value{
+      font-size: 20px;
+      font-weight: bold;
+      color: #28a745;
+    }
+
+    /* ================= DOWNLOAD ================= */
+
+    .download-btn{
+      width: 100%;
+      border: none;
+      background: #c82333;
+      color: white;
+      padding: 12px;
+      border-radius: 10px;
+      margin-top: 20px;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    .download-btn:hover{
+      background: #a51c28;
+    }
+
+    /* ================= BOTTOM SECTION ================= */
+
+    .bottom-section{
+      margin-top: 30px;
+    }
+
+    .bottom-title{
+      font-size: 22px;
+      font-weight: bold;
+      color: #2b3c73;
+      margin-bottom: 15px;
+    }
+
+    .scroll-container{
+      display: flex;
+      overflow-x: auto;
+      gap: 20px;
+      padding-bottom: 10px;
+      scroll-behavior: smooth;
+    }
+
+    .scroll-container::-webkit-scrollbar{
+      height: 10px;
+    }
+
+    .scroll-container::-webkit-scrollbar-thumb{
+      background: #999;
+      border-radius: 20px;
+    }
+
+    .placeholder-card{
+      min-width: 320px;
+      height: 220px;
+      background: rgba(255,255,255,0.7);
+      border-radius: 18px;
+      border: 2px dashed #999;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #777;
+      font-size: 22px;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+
+    @media(max-width:992px){
+
+      .map-container{
+        height: 400px;
+        margin-bottom: 20px;
+      }
+
+      .dropdown-menu{
+        width: 95vw;
+      }
+
+    }
+
+  </style>
+</head>
+
+<body>
+
+<div class="dashboard-container">
+
+  <!-- HEADER -->
+  <div class="header">
+
+    <div class="title">
+      <h2>RTD BENDUNGAN SERMO</h2>
+      <p>BALAI BESAR WILAYAH SUNGAI SERAYU OPAK</p>
+    </div>
+
+    <!-- DROPDOWN KONTAK -->
+    <div class="dropdown">
+
+      <button class="btn btn-warning fw-bold dropdown-toggle px-4 py-2"
+              type="button"
+              data-bs-toggle="dropdown"
+              data-bs-auto-close="outside">
+
+        <i class="fa-solid fa-headset"></i>
+        Kontak Darurat
+
+      </button>
+
+      <div class="dropdown-menu dropdown-menu-end">
+
+        <div class="accordion" id="contactAccordion">
+
+          <!-- ITEM -->
+          
+          <!-- Template kategori -->
+          <!-- Copy otomatis -->
+
+          <script>
+            const categories = [
+              "PENGAMANAN BENDUNGAN",
+              "Pengelola Bendungan",
+              "Badan / Instansi Lain",
+              "Pengamanan Masyarakat di Hilir di Wilayah Kabupaten Kulon Progo",
+              "Dinas & Badan terkait Penanggulangan Bencana dan Penanganan Pengungsian",
+              "Panewu di Wilayah Terdampak di Kabupaten Kulon Progo",
+              "Lurah Wilayah Terdampak di Kecamatan Kokap",
+              "Lurah Wilayah Terdampak di Kecamatan Pengasih",
+              "Lurah Wilayah Terdampak di Kecamatan Nanggulan",
+              "Lurah Wilayah Terdampak di Kecamatan Sentolo",
+              "Lurah Wilayah Terdampak di Kecamatan Wates",
+              "Lurah Wilayah Terdampak di Kecamatan Panjatan",
+              "Lurah Wilayah Terdampak di Kecamatan Lendah",
+              "Lurah Wilayah Terdampak di Kecamatan Galur",
+              "Lurah Wilayah Terdampak di Kecamatan Temon"
+            ];
+
+            const accordion = document.getElementById("contactAccordion");
+
+            categories.forEach((cat, index)=>{
+
+              accordion.innerHTML += `
+
+              <div class="accordion-item">
+
+                <h2 class="accordion-header">
+
+                  <button class="accordion-button collapsed"
+                          type="button"
+                          data-bs-toggle="collapse"
+                          data-bs-target="#collapse${index}">
+
+                    ${cat}
+
+                  </button>
+
+                </h2>
+
+                <div id="collapse${index}"
+                     class="accordion-collapse collapse"
+                     data-bs-parent="#contactAccordion">
+
+                  <div class="accordion-body">
+
+                    <div class="contact-item">
+                      <div class="contact-name">Nama Petugas 1</div>
+                      <div class="contact-phone">
+                        <i class="fa-solid fa-phone"></i>
+                        0812-6767-0001
+                      </div>
+                    </div>
+
+                    <div class="contact-item">
+                      <div class="contact-name">Nama Petugas 2</div>
+                      <div class="contact-phone">
+                        <i class="fa-solid fa-phone"></i>
+                        0812-6767-0002
+                      </div>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              `;
+            });
+
+          </script>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- MAIN CONTENT -->
+  <div class="row g-3">
+
+    <!-- MAP -->
+    <div class="col-lg-6">
+
+      <div class="map-container">
+
+        <!-- MASUKKAN PETA FOLIUM -->
+        <iframe src="map.html"></iframe>
+
+      </div>
+
+    </div>
+
+    <!-- INFO -->
+    <div class="col-lg-6">
+
+      <div class="info-box">
+
+        <div class="info-title">
+          Informasi Bendungan Sermo
+        </div>
+
+        <table class="info-table">
+
+          <tr>
+            <td>Tipe Bendungan</td>
+            <td>: Urugan Batu dengan Inti Tegak</td>
+          </tr>
+
+          <tr>
+            <td>Perlindungan Lereng</td>
+            <td>: Rip Rap</td>
+          </tr>
+
+          <tr>
+            <td>Ketinggian dari Dasar Sungai</td>
+            <td>: 43,30 m</td>
+          </tr>
+
+          <tr>
+            <td>Volume Tampungan Normal</td>
+            <td>: 23,63 juta m³</td>
+          </tr>
+
+          <tr>
+            <td>Volume Tampungan Maksimum</td>
+            <td>: 31,05 juta m³</td>
+          </tr>
+
+          <tr>
+            <td>Luas Genangan Maksimum</td>
+            <td>: 179,0 Ha</td>
+          </tr>
+
+          <tr>
+            <td>Elevasi Puncak Bendungan</td>
+            <td>: EL. 139,37 m</td>
+          </tr>
+
+          <tr>
+            <td>Tipe Pelimpah</td>
+            <td>: Overflow</td>
+          </tr>
+
+          <tr>
+            <td>Ambang Tipe</td>
+            <td>: Ogee</td>
+          </tr>
+
+          <tr>
+            <td>Kapasitas Pelimpah</td>
+            <td>: 479,91 m³/det</td>
+          </tr>
+
+          <tr>
+            <td>Kelas Bahaya Hilir Bendungan</td>
+            <td>: Kelas Bahaya Sangat Tinggi</td>
+          </tr>
+
+          <tr>
+            <td>Jumlah Penduduk Berpotensi</td>
+            <td>: 56.046 Jiwa / 14.483 KK</td>
+          </tr>
+
+          <tr>
+            <td>Luas Genangan Keruntuhan</td>
+            <td>: 12.341 Ha</td>
+          </tr>
+
+          <tr>
+            <td>Tahun Pembuatan</td>
+            <td>: 1996</td>
+          </tr>
+
+        </table>
+
+        <!-- STATUS -->
+        <div class="status-box">
+
+          <div class="status-label">
+            Status Bendungan Saat Ini
+          </div>
+
+          <div class="status-value">
+            NORMAL
+          </div>
+
+        </div>
+
+        <!-- DOWNLOAD -->
+        <button class="download-btn">
+
+          <i class="fa-solid fa-file-pdf"></i>
+          Download Peta (PDF)
+
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- BOTTOM SECTION -->
+  <div class="bottom-section">
+
+    <div class="bottom-title">
+      Informasi Tambahan
+    </div>
+
+    <div class="scroll-container">
+
+      <div class="placeholder-card">
+        Placeholder 1
+      </div>
+
+      <div class="placeholder-card">
+        Placeholder 2
+      </div>
+
+      <div class="placeholder-card">
+        Placeholder 3
+      </div>
+
+      <div class="placeholder-card">
+        Placeholder 4
+      </div>
+
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

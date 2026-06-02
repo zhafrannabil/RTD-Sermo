@@ -214,3 +214,94 @@ body{
     }
 
 }
+
+/* ================= INFO CARD ================= */
+
+.info-card{
+
+    min-width:320px;
+    height:240px;
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    box-shadow:0 4px 12px rgba(0,0,0,0.12);
+
+    flex-shrink:0;
+
+    transition:0.3s;
+
+    border-top:5px solid #2b3c73;
+}
+
+.info-card:hover{
+
+    transform:translateY(-6px);
+
+    box-shadow:0 8px 18px rgba(0,0,0,0.15);
+}
+
+.card-icon{
+
+    font-size:42px;
+
+    color:#2b3c73;
+
+    margin-bottom:15px;
+}
+
+.info-card h4{
+
+    color:#2b3c73;
+
+    font-weight:bold;
+
+    margin-bottom:15px;
+}
+
+.info-card p{
+
+    margin-bottom:6px;
+
+    color:#555;
+}
+
+.detail-btn{
+
+    margin-top:15px;
+
+    border:none;
+
+    background:#2b3c73;
+
+    color:white;
+
+    padding:8px 16px;
+
+    border-radius:8px;
+
+    font-weight:bold;
+}
+
+.detail-btn:hover{
+
+    background:#1d2952;
+}
+
+/* ================= FOOTER ================= */
+
+.footer{
+
+    margin-top:30px;
+
+    text-align:center;
+
+    color:#666;
+
+    font-size:14px;
+
+    padding:15px;
+}

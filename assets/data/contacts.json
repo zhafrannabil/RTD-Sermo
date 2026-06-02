@@ -1,0 +1,667 @@
+{
+  "PENGAMANAN BENDUNGAN": [
+    {
+      "nama": "Ir. Jarot Widyoko, Sp-1",
+      "jabatan": "Dirjen SDA",
+      "kantor": "021-7396616",
+      "hp": null
+    },
+    {
+      "nama": "Ir. Lilik Retno Cahyadiningsih, MA.",
+      "jabatan": "Direktur Bina OP",
+      "kantor": "021-7395500",
+      "hp": null
+    },
+    {
+      "nama": "Duki Malindo, ST, M.Cost.Mgt",
+      "jabatan": "Kepala Balai Teknik Bendungan",
+      "kantor": "021-75908364",
+      "hp": "081315794815"
+    }
+  ],
+
+  "Pengelola Bendungan": [
+    {
+      "nama": "Dwi Purwantoro, ST, MT",
+      "jabatan": "Kepala Balai Besar Wilayah Sungai Serayu Opak",
+      "kantor": "0274-489172",
+      "hp": "087738201744"
+    },
+    {
+      "nama": "Antyarsa Ikana Dani, S.T., M.Eng.",
+      "jabatan": "Ka. UPB BBWS Serayu Opak",
+      "kantor": "0274-489172",
+      "hp": "08157914920"
+    },
+    {
+      "nama": "Tri Joko Saptono, S.Si",
+      "jabatan": "Ka Sub UPB Sermo",
+      "kantor": null,
+      "hp": "085712864931"
+    },
+    {
+      "nama": "Otty Indra Istanto, ST, MT",
+      "jabatan": "Wakil Kepala Sub UPB Sermo",
+      "kantor": null,
+      "hp": "085258162600"
+    },
+    {
+      "nama": "Novika Prabowo A.Md",
+      "jabatan": "Koordinator Petugas",
+      "kantor": null,
+      "hp": "081328764101"
+    },
+    {
+      "nama": [
+        "Tri Wusono",
+        "Suparyanto",
+        "Kri Adwoyo",
+        "Agus Cahyono",
+        "Wahyu Widodo",
+        "Haryana"
+      ],
+      "jabatan": "Petugas Keamanan Kawasan Bendungan",
+      "kantor": null,
+      "hp": [
+        "081578030816",
+        "082323895227",
+        "085292177727",
+        "081226611164",
+        "081229589947",
+        "085729555521"
+      ]
+    },
+    {
+      "nama": [
+        "Triyana",
+        "Agung Prasetya",
+        "Dwi Atmono",
+        "Danang Sukmana"
+      ],
+      "jabatan": "Petugas Operasi",
+      "kantor": null,
+      "hp": [
+        "087839539255",
+        "087879821112",
+        "081226312226",
+        "081931167163"
+      ]
+    },
+    {
+      "nama": [
+        "Sumardi",
+        "Ramin",
+        "Andar Widiarso"
+      ],
+      "jabatan": "Petugas Pemeliharaan",
+      "kantor": null,
+      "hp": [
+        "081238584422",
+        "085228181449"
+      ]
+    },
+    {
+      "nama": [
+        "Ramin",
+        "Sayib",
+        "Danang Sukmana"
+      ],
+      "jabatan": "Petugas Pemantauan",
+      "kantor": null,
+      "hp": [
+        "085228181449",
+        "081392798838",
+        "081931167163"
+      ]
+    }
+  ],
+
+  "Badan / Instansi Lain": [
+    {
+      "nama": "Ikhsan, ST, Msi",
+      "jabatan": "BMKG DIY Kepala Stasiun Geofisika Yogyakarta",
+      "kantor": "0274-6498383",
+      "hp": "082145148913"
+    },
+    {
+      "nama": "Asdo Artriviyanto",
+      "jabatan": "PT KAI, Kepala DAOP 6 Yogyakarta",
+      "kantor": "0274-512056",
+      "hp": null
+    }
+  ],
+
+  "Pengamanan Masyarakat di Hilir di Wilayah Kabupaten Kulon Progo": [
+    {
+      "nama": "Drs. Sutedjo",
+      "jabatan": "Bupati Kulon Progo",
+      "kantor": "0274-773232",
+      "hp": "085729683283 (ajudan)"
+    }
+  ],
+
+  "Dinas & Badan terkait Penanggulangan Bencana dan Penanganan Pengungsian": [
+    {
+      "nama": "Ir. RM Astungkoro, M.Hum",
+      "jabatan": "Kepala BPBD Kab Kulon Progo",
+      "kantor": "0274-774710",
+      "hp": "0817262399 (ajudan)"
+    },
+    {
+      "nama": "Joko Satya Agus Nahrowi, ST,MT",
+      "jabatan": "Kepala Pelaksana BPBD Kab. Kulon Progo",
+      "kantor": "0274-774710",
+      "hp": "081578105154"
+    },
+    {
+      "nama": "Teguh Susila, S.E",
+      "jabatan": "Sekretaris BPBD",
+      "kantor": "0274-774710",
+      "hp": "081328697004"
+    },
+    {
+      "nama": "Winarta, S.IP",
+      "jabatan": "Kabid Pencegahan dan Kesiapsiagaan",
+      "kantor": "0274-774710",
+      "hp": "081328700495"
+    },
+    {
+      "nama": "Edi Wibowo, S.IP.",
+      "jabatan": "Kabid Kedauratan & Logistik",
+      "kantor": "0274-774710",
+      "hp": "081328407932"
+    },
+    {
+      "nama": "Ganjar Saparto, S.IP.",
+      "jabatan": "Kabid Rehabilitasi & Rekonstruksi",
+      "kantor": "0274-774710",
+      "hp": "081578985297"
+    },
+    {
+      "nama": "Ir. Gusdi Hartono, MT",
+      "jabatan": "Ka. Dinas Pekerjaan Umum Perumahan Dan Kawasan Permukiman",
+      "kantor": "0274-773060",
+      "hp": "081391773227"
+    },
+    {
+      "nama": "AKBP Tartono, S.H., M.B.A.",
+      "jabatan": "Kapolres Kulon Progo",
+      "kantor": "0274-773110",
+      "hp": "081266148028"
+    },
+    {
+      "nama": "Letkol Inf Yefta Sangkakala, S.Sos",
+      "jabatan": "Dandim 0731/ Kulon Progo",
+      "kantor": "0274-773013",
+      "hp": "081330007291"
+    },
+    {
+      "nama": "Drs. L. Bowopristiyanto",
+      "jabatan": "Kepala Dinas Perhubungan",
+      "kantor": "0274-773154",
+      "hp": "081328340911"
+    },
+    {
+      "nama": "dr. Sri Budi Utami, M.Kes",
+      "jabatan": "Kepala Dinas Kesehatan",
+      "kantor": "0274-773011",
+      "hp": "081328855192"
+    },
+    {
+      "nama": "Drs. Rudiyatno, M.M.",
+      "jabatan": "Kepala Dinas Komunikasi dan Informatika",
+      "kantor": "0274-773010",
+      "hp": "081804046600"
+    },
+    {
+      "nama": "Drs. Yohanes Irianta, M.Si",
+      "jabatan": "Kepala Dinas Sosial PPPA",
+      "kantor": "0274-773026",
+      "hp": "085725030707"
+    },
+    {
+      "nama": "Drs. Sumiran",
+      "jabatan": "Kepala Satuan Polisi Pamong Praja",
+      "kantor": "0274-289034",
+      "hp": "087738585511"
+    },
+    {
+      "nama": "Dr. Lies Indriyati, Sp.A",
+      "jabatan": "RSUD Wates",
+      "kantor": "0274-773169",
+      "hp": "081328340055"
+    }
+  ],
+
+  "Panewu di Wilayah Terdampak di Kabupaten Kulon Progo": [
+    {
+      "nama": "Sadikan, S.Pd, M.Pd",
+      "jabatan": "Panewu Kokap",
+      "kantor": "08112912234",
+      "hp": "081225486671"
+    },
+    {
+      "nama": "Triyanto Raharjo, S.Sos.,M.si",
+      "jabatan": "Panewu Pengasih",
+      "kantor": "0274-773320",
+      "hp": "087839272163"
+    },
+    {
+      "nama": "Ir. ST. Haryoto, MMA",
+      "jabatan": "Panewu Nanggulan",
+      "kantor": "0274-2820332",
+      "hp": "085725127669"
+    },
+    {
+      "nama": "Raden Sigit Purnomo, S.IP",
+      "jabatan": "Panewu Sentolo",
+      "kantor": "0274-6472118",
+      "hp": "081802787483"
+    },
+    {
+      "nama": "Santoso, SIP, M.Si",
+      "jabatan": "Panewu Wates",
+      "kantor": "0274-773275",
+      "hp": "087739399050"
+    },
+    {
+      "nama": "Setiawan Tri Widada, S.Sos",
+      "jabatan": "Panewu Panjatan",
+      "kantor": "0274-773993",
+      "hp": "081228223943"
+    },
+    {
+      "nama": "Sutrisna, S.Sos",
+      "jabatan": "Panewu Lendah",
+      "kantor": "08112633255",
+      "hp": "082138220250"
+    },
+    {
+      "nama": "Drs. Sunarya, MM",
+      "jabatan": "Panewu Galur",
+      "kantor": "0274-6473595",
+      "hp": "08112513269"
+    },
+    {
+      "nama": "Akhid Nur Hartono, S.Pt, MM",
+      "jabatan": "Plt. Panewu Temon",
+      "kantor": "0274-6472581",
+      "hp": "085101815634"
+    }
+  ],
+
+  "Lurah Wilayah Terdampak di Kecamatan Kokap": [
+    {
+      "nama": "Dalijan",
+      "jabatan": "Lurah Hargowilis",
+      "kantor": null,
+      "hp": "081329520281"
+    },
+    {
+      "nama": "Ahmad Suyudi",
+      "jabatan": "Lurah Hargorejo",
+      "kantor": "0274-7721380",
+      "hp": "085975202159"
+    }
+  ],
+
+  "Lurah Wilayah Terdampak di Kecamatan Pengasih": [
+    {
+      "nama": "Mujirin",
+      "jabatan": "Lurah Karangsari",
+      "kantor": "0274-774395",
+      "hp": "081226001461"
+    },
+    {
+      "nama": "Heru Winarto, SE",
+      "jabatan": "Lurah Tawangsari",
+      "kantor": "0274-6472260",
+      "hp": "082327270270"
+    },
+    {
+      "nama": "Samsudin",
+      "jabatan": "Lurah Sendangsari",
+      "kantor": "0274-775144",
+      "hp": "087845805505"
+    },
+    {
+      "nama": "Kabul",
+      "jabatan": "Lurah Sidomulyo",
+      "kantor": null,
+      "hp": "082220271110"
+    },
+    {
+      "nama": "Joko Purwanto",
+      "jabatan": "Lurah Pengasih",
+      "kantor": "0274-775144",
+      "hp": "08121560363"
+    },
+    {
+      "nama": "Nur Hidayat, SE, MM",
+      "jabatan": "Lurah Margosari",
+      "kantor": null,
+      "hp": "082241673334"
+    },
+    {
+      "nama": "Sabingin",
+      "jabatan": "Lurah Kedungsari",
+      "kantor": "085643223477",
+      "hp": "081229064555"
+    }
+  ],
+
+  "Lurah Wilayah Terdampak di Kecamatan Nanggulan": [
+    {
+      "nama": "Sudalja",
+      "jabatan": "Lurah Banyuroto",
+      "kantor": "0274-2890702",
+      "hp": "081328733768"
+    }
+  ],
+
+  "Lurah Wilayah Terdampak di Kecamatan Sentolo": [
+    {
+      "nama": "H. Olan Suparlan, S.Sos",
+      "jabatan": "Lurah Sukoreno",
+      "kantor": "0274-7721735",
+      "hp": "081328045729"
+    },
+    {
+      "nama": "Hening Nurcahya, AP.MM",
+      "jabatan": "PJ. Lurah Demangrejo",
+      "kantor": null,
+      "hp": "087739486030"
+    },
+    {
+      "nama": "Dani Pristiawan, SP",
+      "jabatan": "Lurah Salamrejo",
+      "kantor": null,
+      "hp": "081215164477"
+    },
+    {
+      "nama": "Zainuri",
+      "jabatan": "Lurah Tuksono",
+      "kantor": null,
+      "hp": "081802741368"
+    },
+    {
+      "nama": "Aris Puryanto",
+      "jabatan": "Lurah Srikayangan",
+      "kantor": null,
+      "hp": "087838785962"
+    }
+  ],
+
+  "Lurah Wilayah Terdampak di Kecamatan Wates": [
+    {
+      "nama": "Parmin",
+      "jabatan": "PJ. Lurah Giripeni",
+      "kantor": "0274-773230",
+      "hp": "081238587822"
+    },
+    {
+      "nama": "Mujio",
+      "jabatan": "Lurah Bendungan",
+      "kantor": "0274-2890955",
+      "hp": "082340645648"
+    },
+    {
+      "nama": "Bambang Sunartito",
+      "jabatan": "Lurah Wates",
+      "kantor": "0274-773016",
+      "hp": "081335979236"
+    },
+    {
+      "nama": "Sukirno",
+      "jabatan": "Lurah Triharjo",
+      "kantor": null,
+      "hp": "081904128106"
+    },
+    {
+      "nama": "Nurwidianto",
+      "jabatan": "Lurah Ngestiharjo",
+      "kantor": null,
+      "hp": "08121578880"
+    },
+    {
+      "nama": "Ridwan Usman",
+      "jabatan": "Lurah Kulwaru",
+      "kantor": null,
+      "hp": "081227247800"
+    },
+    {
+      "nama": "Taufik Subagyo",
+      "jabatan": "Lurah Sogan",
+      "kantor": "0274-774203",
+      "hp": "08175415663"
+    },
+    {
+      "nama": "Dwi Purwanto",
+      "jabatan": "Lurah Karangwuni",
+      "kantor": "085774991649",
+      "hp": "081392452502"
+    }
+  ],
+
+  "Lurah Wilayah Terdampak di Kecamatan Panjatan": [
+    {
+      "nama": "Supriyanto",
+      "jabatan": "Lurah Gotakan",
+      "kantor": "0274-775195",
+      "hp": "0823238836159"
+    },
+    {
+      "nama": "Gunadi H.",
+      "jabatan": "Lurah Tayuban",
+      "kantor": "0274-774481",
+      "hp": "081326229770"
+    },
+    {
+      "nama": "Suhartana",
+      "jabatan": "Lurah Panjatan",
+      "kantor": null,
+      "hp": "087775282202"
+    },
+    {
+      "nama": "Suroto",
+      "jabatan": "Lurah Cerme",
+      "kantor": "082325503530",
+      "hp": "081904208444"
+    },
+    {
+      "nama": "Samiran",
+      "jabatan": "Lurah Krembangan",
+      "kantor": null,
+      "hp": "081225962409"
+    },
+    {
+      "nama": "Suprihrohmadi",
+      "jabatan": "Lurah Kanoman",
+      "kantor": null,
+      "hp": "081392975264"
+    },
+    {
+      "nama": "Dwi Andana",
+      "jabatan": "Lurah Bojong",
+      "kantor": null,
+      "hp": "081578597040"
+    },
+    {
+      "nama": "Yuli Indriatna",
+      "jabatan": "Lurah Depok",
+      "kantor": null,
+      "hp": "08121552786"
+    },
+    {
+      "nama": "Sigit Rianto",
+      "jabatan": "Lurah Garongan",
+      "kantor": "082892600361",
+      "hp": "081328302395"
+    },
+    {
+      "nama": "Sugiana",
+      "jabatan": "Lurah Pleret",
+      "kantor": "0274-4415147",
+      "hp": "081905834504"
+    },
+    {
+      "nama": "Sunardi",
+      "jabatan": "Lurah Bugel",
+      "kantor": "085228951199",
+      "hp": "081218441098"
+    }
+  ],
+
+  "Lurah Wilayah Terdampak di Kecamatan Lendah": [
+    {
+      "nama": "Edi Dwi Winarno",
+      "jabatan": "Lurah Bumirejo",
+      "kantor": null,
+      "hp": "081326002163"
+    },
+    {
+      "nama": "Yuni Dwi Indarta",
+      "jabatan": "Lurah Wahyuharjo",
+      "kantor": "087838888387",
+      "hp": "085701474027"
+    },
+    {
+      "nama": "Rustipin",
+      "jabatan": "Lurah Jatirejo",
+      "kantor": "082226229191",
+      "hp": "081226626968"
+    }
+  ],
+
+  "Lurah Wilayah Terdampak di Kecamatan Galur": [
+    {
+      "nama": "Prapto Legowo",
+      "jabatan": "Lurah Tirtorahayu",
+      "kantor": "087739102434",
+      "hp": "082241460747"
+    },
+    {
+      "nama": "Anton Hermawan",
+      "jabatan": "Lurah Karangsewu",
+      "kantor": null,
+      "hp": "081328048689"
+    },
+    {
+      "nama": "Suyono",
+      "jabatan": "Lurah Nomporejo",
+      "kantor": null,
+      "hp": "081229015174"
+    },
+    {
+      "nama": "Drs. Saronto",
+      "jabatan": "Lurah Kranggan",
+      "kantor": null,
+      "hp": "082333945548"
+    },
+    {
+      "nama": "Harianto, SH",
+      "jabatan": "Lurah Banaran",
+      "kantor": null,
+      "hp": "081328797135"
+    },
+    {
+      "nama": "Yuli Purwanto",
+      "jabatan": "Lurah Brosot",
+      "kantor": null,
+      "hp": "089681711871"
+    }
+  ],
+
+  "Lurah Wilayah Terdampak di Kecamatan Temon": [
+    {
+      "nama": "Eko Yunanto",
+      "jabatan": "Lurah Plumbon",
+      "kantor": null,
+      "hp": "085771771370"
+    },
+    {
+      "nama": "Abdul Rosid, ST",
+      "jabatan": "Lurah Kedundang",
+      "kantor": "085712980981",
+      "hp": "082323574732"
+    },
+    {
+      "nama": "Ruslan",
+      "jabatan": "Lurah Demen",
+      "kantor": "081804373789",
+      "hp": "081227658452"
+    },
+    {
+      "nama": "Adi Nugroho, S.PT",
+      "jabatan": "Lurah Kulur",
+      "kantor": "087839994633",
+      "hp": "081390092999"
+    },
+    {
+      "nama": "Pryogo, S.IP",
+      "jabatan": "Lurah Kaligintung",
+      "kantor": null,
+      "hp": "082134538913"
+    },
+    {
+      "nama": "Tusiono, SE",
+      "jabatan": "Lurah Temon Wetan",
+      "kantor": "085743407752",
+      "hp": "087839310678"
+    },
+    {
+      "nama": "Sunardi",
+      "jabatan": "Lurah Kalidengen",
+      "kantor": "08112642340",
+      "hp": "085876280370"
+    },
+    {
+      "nama": "Murdiyono, S.IP",
+      "jabatan": "Lurah Glagah",
+      "kantor": null,
+      "hp": "087839140057"
+    },
+    {
+      "nama": "Ari Sasongko P",
+      "jabatan": "Lurah Temon Kulon",
+      "kantor": null,
+      "hp": "087838552767"
+    },
+    {
+      "nama": "Sao Wijaya Wiwaana Ilaria",
+      "jabatan": "Lurah Kebonrejo",
+      "kantor": null,
+      "hp": "081391475017"
+    },
+    {
+      "nama": "Fahrudin, S.AG",
+      "jabatan": "Lurah Janten",
+      "kantor": "085302740029",
+      "hp": "085712823419"
+    },
+    {
+      "nama": "Kalisa Paraharyana",
+      "jabatan": "Lurah Palihan",
+      "kantor": "0274-6472612",
+      "hp": "081578753159"
+    },
+    {
+      "nama": "Purwoko Agus S",
+      "jabatan": "Lurah Karangwuluh",
+      "kantor": null,
+      "hp": "085326975930"
+    },
+    {
+      "nama": "Akhid Nur Hartono, S.Pt,MM",
+      "jabatan": "Lurah Sindutan",
+      "kantor": null,
+      "hp": "085101815634"
+    },
+    {
+      "nama": "Murtakil Human",
+      "jabatan": "Lurah Jangkaran",
+      "kantor": null,
+      "hp": "085643593730"
+    }
+  ]
+}

@@ -41,91 +41,13 @@
 
       <div class="dropdown-menu dropdown-menu-end">
 
-        <div class="accordion" id="contactAccordion">
-
-          <!-- ITEM -->
-          
-          <!-- Template kategori -->
-          <!-- Copy otomatis -->
-
-          <script>
-            const categories = [
-              "PENGAMANAN BENDUNGAN",
-              "Pengelola Bendungan",
-              "Badan / Instansi Lain",
-              "Pengamanan Masyarakat di Hilir di Wilayah Kabupaten Kulon Progo",
-              "Dinas & Badan terkait Penanggulangan Bencana dan Penanganan Pengungsian",
-              "Panewu di Wilayah Terdampak di Kabupaten Kulon Progo",
-              "Lurah Wilayah Terdampak di Kecamatan Kokap",
-              "Lurah Wilayah Terdampak di Kecamatan Pengasih",
-              "Lurah Wilayah Terdampak di Kecamatan Nanggulan",
-              "Lurah Wilayah Terdampak di Kecamatan Sentolo",
-              "Lurah Wilayah Terdampak di Kecamatan Wates",
-              "Lurah Wilayah Terdampak di Kecamatan Panjatan",
-              "Lurah Wilayah Terdampak di Kecamatan Lendah",
-              "Lurah Wilayah Terdampak di Kecamatan Galur",
-              "Lurah Wilayah Terdampak di Kecamatan Temon"
-            ];
-
-            const accordion = document.getElementById("contactAccordion");
-
-            categories.forEach((cat, index)=>{
-
-              accordion.innerHTML += `
-
-              <div class="accordion-item">
-
-                <h2 class="accordion-header">
-
-                  <button class="accordion-button collapsed"
-                          type="button"
-                          data-bs-toggle="collapse"
-                          data-bs-target="#collapse${index}">
-
-                    ${cat}
-
-                  </button>
-
-                </h2>
-
-                <div id="collapse${index}"
-                     class="accordion-collapse collapse"
-                     data-bs-parent="#contactAccordion">
-
-                  <div class="accordion-body">
-
-                    <div class="contact-item">
-                      <div class="contact-name">Nama Petugas 1</div>
-                      <div class="contact-phone">
-                        <i class="fa-solid fa-phone"></i>
-                        0812-6767-0001
-                      </div>
-                    </div>
-
-                    <div class="contact-item">
-                      <div class="contact-name">Nama Petugas 2</div>
-                      <div class="contact-phone">
-                        <i class="fa-solid fa-phone"></i>
-                        0812-6767-0002
-                      </div>
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </div>
-
-              `;
-            });
-
-          </script>
-
-        </div>
+        <div class="accordion" id="contactAccordion"></div>
 
       </div>
 
     </div>
+
+    <script src="script.js"></script>
 
   </div>
 
@@ -138,7 +60,7 @@
       <div class="map-container">
 
         <!-- MASUKKAN PETA FOLIUM -->
-        <iframe src="interactive_map/peta_interaktif_sermo.html"></iframe>
+        <iframe src="maps/peta_interaktif_sermo.html"></iframe>
 
       </div>
 

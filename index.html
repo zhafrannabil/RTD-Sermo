@@ -202,13 +202,18 @@
 
             <h4>Desa Terdampak</h4>
 
-            <p>12 Desa</p>
+            <p>38 Desa</p>
             <p>56.046 Jiwa</p>
             <p>14.483 KK</p>
 
-            <button class="detail-btn">
-                Lihat Detail
-            </button>
+            <button
+    class="detail-btn"
+    data-bs-toggle="modal"
+    data-bs-target="#desaModal">
+
+    Lihat Detail
+
+</button>
 
         </div>
 
@@ -282,6 +287,55 @@
 
 <!-- Bootstrap JS -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- MODAL DESA TERDAMPAK -->
+
+<div class="modal fade"
+     id="desaModal"
+     tabindex="-1">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title">
+                    Desa Terdampak
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <table class="table table-striped">
+
+    <thead>
+        <tr>
+            <th>No</th>
+            <th>Desa</th>
+            <th>Kecamatan</th>
+        </tr>
+    </thead>
+
+    <tbody id="desaTableBody">
+    </tbody>
+
+</table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
 
 </body>
 </html>

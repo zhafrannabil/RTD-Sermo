@@ -90,3 +90,23 @@ fetch("assets/data/contacts.json")
   .catch(error => {
     console.error("Gagal memuat contacts.json", error);
   });
+
+  fetch("assets/data/desa.json")
+  .then(response => response.json())
+  .then(data => {
+
+    const tbody = document.getElementById("desaTableBody");
+
+    data.forEach((item, index) => {
+
+      tbody.innerHTML += `
+        <tr>
+          <td>${index + 1}</td>
+          <td>${item.desa}</td>
+          <td>${item.kecamatan}</td>
+        </tr>
+      `;
+
+    });
+
+  });

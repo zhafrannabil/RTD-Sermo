@@ -229,9 +229,14 @@
             <p>8 Jalur Utama</p>
             <p>Kondisi Aktif</p>
 
-            <button class="detail-btn">
-                Lihat Detail
-            </button>
+            <button
+    class="detail-btn"
+    data-bs-toggle="modal"
+    data-bs-target="#evakuasiModal">
+
+    Lihat Detail
+
+</button>
 
         </div>
 
@@ -328,6 +333,63 @@
     </tbody>
 
 </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- MODAL JALUR EVAKUASI -->
+<div class="modal fade" id="evakuasiModal" tabindex="-1">
+
+    <div class="modal-dialog modal-xl">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title">
+                    Jalur Evakuasi
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <label class="form-label">
+                    Pilih Kecamatan
+                </label>
+
+                <select
+                    id="kecamatanSelect"
+                    class="form-select">
+
+                    <option value="kokap">Kokap</option>
+                    <option value="pengasih">Pengasih</option>
+                    <option value="nanggulan">Nanggulan</option>
+                    <option value="sentolo">Sentolo</option>
+                    <option value="wates">Wates</option>
+                    <option value="panjatan">Panjatan</option>
+                    <option value="lendah">Lendah</option>
+                    <option value="galur">Galur</option>
+                    <option value="temon">Temon</option>
+
+                </select>
+
+                <img
+                    id="evakuasiImage"
+                    src="assets/image/evakuasi/kokap.png"
+                    class="img-fluid mt-3 rounded border"
+                    alt="Peta Jalur Evakuasi">
 
             </div>
 

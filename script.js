@@ -110,3 +110,26 @@ fetch("assets/data/contacts.json")
     });
 
   });
+
+document.addEventListener("DOMContentLoaded", function () {
+
+    const kecamatanSelect =
+        document.getElementById("kecamatanSelect");
+
+    const evakuasiImage =
+        document.getElementById("evakuasiImage");
+
+    if (!kecamatanSelect || !evakuasiImage) return;
+
+    kecamatanSelect.addEventListener("change", function () {
+
+        const imagePath =
+            `assets/image/evakuasi/${this.value}.png`;
+
+        console.log("Ganti gambar:", imagePath);
+
+        evakuasiImage.src = imagePath;
+
+    });
+
+});

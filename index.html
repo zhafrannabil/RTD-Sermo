@@ -196,86 +196,104 @@
         <!-- Desa Terdampak -->
         <div class="info-card">
 
-            <div class="card-icon">
-                <i class="fa-solid fa-location-dot"></i>
-            </div>
+    <div class="info-icon">
+        <i class="fas fa-map-marker-alt"></i>
+    </div>
 
-            <h4>Desa Terdampak</h4>
+    <h4>Desa Terdampak</h4>
 
-            <p>38 Desa</p>
-            <p>56.046 Jiwa</p>
-            <p>14.483 KK</p>
+    <p>
+        Informasi wilayah terdampak,
+        jumlah penduduk, dan data
+        desa berdasarkan RTD Bendungan Sermo.
+    </p>
 
-            <button
-    class="detail-btn"
-    data-bs-toggle="modal"
-    data-bs-target="#desaModal">
+    <button
+        class="detail-btn"
+        data-bs-toggle="modal"
+        data-bs-target="#desaModal">
 
-    Lihat Detail
+        Lihat Detail
 
-</button>
+    </button>
 
-        </div>
+</div>
 
         <!-- Jalur Evakuasi -->
         <div class="info-card">
 
-            <div class="card-icon">
-                <i class="fa-solid fa-person-walking"></i>
-            </div>
+    <div class="info-icon">
+        <i class="fas fa-person-walking-arrow-right"></i>
+    </div>
 
-            <h4>Jalur Evakuasi</h4>
+    <h4>Jalur Evakuasi</h4>
 
-            <p>8 Jalur Utama</p>
-            <p>Kondisi Aktif</p>
+    <p>
+        Informasi jalur evakuasi dan
+        rute penyelamatan masyarakat
+        pada wilayah terdampak.
+    </p>
 
-            <button
-    class="detail-btn"
-    data-bs-toggle="modal"
-    data-bs-target="#evakuasiModal">
+    <button
+        class="detail-btn"
+        data-bs-toggle="modal"
+        data-bs-target="#evakuasiModal">
 
-    Lihat Detail
+        Lihat Detail
 
-</button>
+    </button>
 
-        </div>
+</div>
 
         <!-- Titik Kumpul -->
         <div class="info-card">
 
-            <div class="card-icon">
-                <i class="fa-solid fa-school"></i>
-            </div>
+    <div class="info-icon">
+        <i class="fas fa-people-group"></i>
+    </div>
 
-            <h4>Titik Kumpul</h4>
+    <h4>Lokasi Titik Kumpul</h4>
 
-            <p>15 Lokasi</p>
-            <p>Siap Digunakan</p>
+    <p>
+        Informasi kapasitas dan lokasi
+        titik kumpul berdasarkan
+        RTD Bendungan Sermo.
+    </p>
 
-            <button class="detail-btn">
-                Lihat Detail
-            </button>
+    <button
+        class="detail-btn"
+        data-bs-toggle="modal"
+        data-bs-target="#titikKumpulModal">
 
-        </div>
+        Lihat Detail
+
+    </button>
+
+</div>
 
         <!-- Dokumen RTD -->
         <div class="info-card">
 
-            <div class="card-icon">
-                <i class="fa-solid fa-file-pdf"></i>
-            </div>
+    <div class="info-icon">
+        <i class="fas fa-file-pdf"></i>
+    </div>
 
-            <h4>Dokumen RTD</h4>
+    <h4>Dokumen RTD</h4>
 
-            <p>RTD 2025</p>
-            <p>Peta Genangan</p>
-            <p>SOP Evakuasi</p>
+    <p>
+        Dokumen resmi RTD,
+        peta genangan dan SOP
+        evakuasi Bendungan Sermo.
+    </p>
 
-            <button class="detail-btn">
-                Buka Dokumen
-            </button>
+    <button
+        class="detail-btn">
 
-        </div>
+        Buka Dokumen
+
+    </button>
+
+</div>
 
     </div>
 
@@ -390,6 +408,71 @@
                     src="assets/image/evakuasi/kokap.png"
                     class="img-fluid mt-3 rounded border"
                     alt="Peta Jalur Evakuasi">
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- MODAL TITIK KUMPUL -->
+<div class="modal fade"
+     id="titikKumpulModal"
+     tabindex="-1">
+
+    <div class="modal-dialog modal-xl">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title">
+                    Daftar Lokasi Titik Kumpul
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <input
+                    type="text"
+                    id="searchTK"
+                    class="form-control mb-3"
+                    placeholder="Cari lokasi atau wilayah...">
+
+                <div class="table-responsive">
+
+                    <table
+                        class="table table-striped table-hover">
+
+                        <thead>
+
+                            <tr>
+                                <th>Kode</th>
+                                <th>Lokasi</th>
+                                <th>Wilayah</th>
+                                <th>Pengungsi</th>
+                                <th>Luas</th>
+                                <th>Status</th>
+                            </tr>
+
+                        </thead>
+
+                        <tbody id="tkTableBody">
+
+                        </tbody>
+
+                    </table>
+
+                </div>
 
             </div>
 

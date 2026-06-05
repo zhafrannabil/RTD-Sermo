@@ -133,3 +133,112 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+let titikKumpulData = [];
+
+fetch("assets/data/titik_kumpul.json")
+.then(response => response.json())
+.then(data => {
+
+    titikKumpulData = data;
+
+    renderTK(data);
+
+});
+
+function renderTK(data){
+
+    const table =
+        document.getElementById(
+            "tkTableBody"
+        );
+
+    if(!table) return;
+
+    table.innerHTML = "";
+
+    data.forEach(item => {
+
+        const badge =
+            item.status === "Cukup"
+            ? "success"
+            : "danger";
+
+        table.innerHTML += `
+
+        <tr>
+
+            <td>${item.kodeTK}</td>
+
+            <td>${item.lokasi}</td>
+
+            <td>${item.wilayah}</td>
+
+            <td>${item.pengungsi}</td>
+
+            <td>${item.luas} m²</td>
+
+            <td>
+
+                <span
+                class="badge bg-${badge}">
+
+                ${item.status}
+
+                </span>
+
+            </td>
+
+        </tr>
+
+        `;
+
+    });
+
+}
+
+document.addEventListener(
+"DOMContentLoaded",
+function(){
+
+    const search =
+    document.getElementById(
+        "searchTK"
+    );
+
+    if(!search) return;
+
+    search.addEventListener(
+    "keyup",
+    function(){
+
+        const keyword =
+        this.value.toLowerCase();
+
+        const filtered =
+        titikKumpulData.filter(
+        item =>
+
+        item.lokasi
+        .toLowerCase()
+        .includes(keyword)
+
+        ||
+
+        item.wilayah
+        .toLowerCase()
+        .includes(keyword)
+
+        ||
+
+        item.kodeTK
+        .toLowerCase()
+        .includes(keyword)
+
+        );
+
+        renderTK(filtered);
+
+    });
+
+});

@@ -1,0 +1,530 @@
+[
+  {
+    "kodeTK": "TK1",
+    "lokasi": "Masjid Baitul Alfath",
+    "wilayah": "Hargowilis (Sermo Lor)",
+    "pengungsi": 42,
+    "luas": 625,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK2",
+    "lokasi": "Kantor Unit Monitoring Sermo",
+    "wilayah": "Hargowilis (Wilayah Waduk Sermo, Wilayah BKSDA)",
+    "pengungsi": 0,
+    "luas": 625,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK3",
+    "lokasi": "SDN Hargorejo",
+    "wilayah": "Hargorejo (Ngulakan, Kriyan, Sidon)",
+    "pengungsi": 313,
+    "luas": 3850,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK4",
+    "lokasi": "Masjid Al Barokah Kamal",
+    "wilayah": "Karangsari (Wilayah Perhutani, Kamal)",
+    "pengungsi": 33,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK5",
+    "lokasi": "Campgrounds Kedungrejo",
+    "wilayah": "Karangsari (Kedungtangkil, Blumbang)",
+    "pengungsi": 76,
+    "luas": 11050,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK6",
+    "lokasi": "Masjid Nurul Iman",
+    "wilayah": "Karangsari (Suruhan, Cekelan, Dukuh Karangsari, Josutan)",
+    "pengungsi": 252,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK7",
+    "lokasi": "Kantor Desa Tawangsari",
+    "wilayah": "Tawangsari",
+    "pengungsi": 1341,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK8",
+    "lokasi": "Masjid Al Mutaqin",
+    "wilayah": "Sendangsari (Giriyono, Pereng, Gegunung, Blubuk)",
+    "pengungsi": 234,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK9",
+    "lokasi": "Masjid Ar Rahman",
+    "wilayah": "Sendangsari (Paingan)",
+    "pengungsi": 141,
+    "luas": 625,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK10",
+    "lokasi": "Kantor Desa Sendangsari",
+    "wilayah": "Sendangsari (Secang, Mrunggi, Klegen, Serang)",
+    "pengungsi": 536,
+    "luas": 1750,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK11",
+    "lokasi": "SMPN 3 Pengasih",
+    "wilayah": "Sidomulyo (Dukuh)",
+    "pengungsi": 33,
+    "luas": 8775,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK12",
+    "lokasi": "SDN Ngento",
+    "wilayah": "Pengasih (Ngento, Tunjungan, Terbah, Serut, Kedung, Pengasih, Dayakan)",
+    "pengungsi": 1950,
+    "luas": 5000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK13",
+    "lokasi": "SDN Negeri Kepek",
+    "wilayah": "Pengasih (Derwolo, Kepek, Klampis)",
+    "pengungsi": 278,
+    "luas": 7500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK14",
+    "lokasi": "Kantor Desa Margosari",
+    "wilayah": "Margosari (Kembang, Karangtengah Lor, Karangtengah Kidul, Gununggondang, Kalisoka, Kalipetir Kidul, Kalipetir Lor)",
+    "pengungsi": 1043,
+    "luas": 1750,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK15",
+    "lokasi": "SMP Muhammadiyah 1 Wates",
+    "wilayah": "Margosari (Kemiri)",
+    "pengungsi": 684,
+    "luas": 7500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK16",
+    "lokasi": "SD BOPKRI Kalinongko",
+    "wilayah": "Kedungsari (Gramang, Kali Nongko, Milir, Karangasem, Karongan)",
+    "pengungsi": 839,
+    "luas": 3500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK17",
+    "lokasi": "SD Negeri 3 Kalipetir",
+    "wilayah": "Kedungsari (Cumetuk, Kedungsongo, Gletak)",
+    "pengungsi": 374,
+    "luas": 6600,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK18",
+    "lokasi": "SD Negeri Sambroto",
+    "wilayah": "Banyuroto (Brangkal, Sambiroto, Gayam)",
+    "pengungsi": 120,
+    "luas": 4725,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK19",
+    "lokasi": "SD Negeri Kalimenur",
+    "wilayah": "Sukoreno (Sidowayah, Ngaglik, Kalimenur, Sukoponco, Wora Wari, Banggan, Semen, Bulak Sukoreno)",
+    "pengungsi": 532,
+    "luas": 3500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK20",
+    "lokasi": "SD Kanisius Bonoharjo",
+    "wilayah": "Demangrejo (Kenteng, Bulakdol Trukan, Karang Patihan, Demangan)",
+    "pengungsi": 135,
+    "luas": 5000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK21",
+    "lokasi": "Ponpes Assalafiyyah",
+    "wilayah": "Salamrejo (Ngrandu)",
+    "pengungsi": 8,
+    "luas": 11625,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK22",
+    "lokasi": "Masjid Al Miftah",
+    "wilayah": "Tuksono (Gunung Duk, Kalisoka)",
+    "pengungsi": 88,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK23",
+    "lokasi": "Masjid Kaliwinong",
+    "wilayah": "Srikayangan (Pendem, Klumutan, Bulak Srikayangan, Malangan, Gowangsan, Panjul Karangasem Tengah, Bulak Depok)",
+    "pengungsi": 345,
+    "luas": 1750,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK24",
+    "lokasi": "Kantor Desa Giripeni",
+    "wilayah": "Giripeni (Gunung Gempal, Tegal Lembut, Graulan, Kedungpring, Dobangsan, Kali Kepek, Sideman)",
+    "pengungsi": 1915,
+    "luas": 3000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK25",
+    "lokasi": "Kantor Desa Bendungan",
+    "wilayah": "Bendungan",
+    "pengungsi": 2069,
+    "luas": 3000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK26",
+    "lokasi": "SD Negeri Terbahsari",
+    "wilayah": "Wates",
+    "pengungsi": 6501,
+    "luas": 4400,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK27",
+    "lokasi": "Kantor Desa Triharjo",
+    "wilayah": "Triharjo",
+    "pengungsi": 2927,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK28",
+    "lokasi": "Kantor Desa Ngestiharjo",
+    "wilayah": "Ngestiharjo",
+    "pengungsi": 615,
+    "luas": 3300,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK29",
+    "lokasi": "Kantor Desa Kulwaru",
+    "wilayah": "Kulwaru",
+    "pengungsi": 955,
+    "luas": 2750,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK30",
+    "lokasi": "Kantor Desa Sogan",
+    "wilayah": "Sogan",
+    "pengungsi": 1328,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK31",
+    "lokasi": "Kantor Desa Karangwuni",
+    "wilayah": "Karangwuni",
+    "pengungsi": 2273,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK32",
+    "lokasi": "SD Negeri Gotakan",
+    "wilayah": "Gotakan (Persawahan Gotakan, Dusun II, Dusun III, Dusun VI, Dusun VIII)",
+    "pengungsi": 1027,
+    "luas": 5500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK33",
+    "lokasi": "Kantor Desa Tayuban",
+    "wilayah": "Tayuban",
+    "pengungsi": 1050,
+    "luas": 3000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK34",
+    "lokasi": "Lapangan Djenguk Panjatan",
+    "wilayah": "Panjatan",
+    "pengungsi": 432,
+    "luas": 5000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK35",
+    "lokasi": "Kantor Desa Cerme",
+    "wilayah": "Cerme",
+    "pengungsi": 684,
+    "luas": 3000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK36",
+    "lokasi": "Kantor Desa Krembangan",
+    "wilayah": "Krembangan (Persawahan 1 Krembangan, Persawahan 2 Krembangan, Dusun II, Dusun III, Dusun V, Dusun VIII)",
+    "pengungsi": 438,
+    "luas": 2750,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK37",
+    "lokasi": "Kantor Desa Kanoman",
+    "wilayah": "Kanoman",
+    "pengungsi": 715,
+    "luas": 3250,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK38",
+    "lokasi": "Kantor Desa Bojong",
+    "wilayah": "Bojong",
+    "pengungsi": 254,
+    "luas": 3250,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK39",
+    "lokasi": "Kantor Desa Depok",
+    "wilayah": "Depok",
+    "pengungsi": 631,
+    "luas": 3250,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK40",
+    "lokasi": "MI Muhammadiyah Garongan",
+    "wilayah": "Garongan",
+    "pengungsi": 377,
+    "luas": 5000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK41",
+    "lokasi": "SD Negeri Pleret Kidul",
+    "wilayah": "Pleret",
+    "pengungsi": 613,
+    "luas": 5000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK42",
+    "lokasi": "SD Negeri Bugel",
+    "wilayah": "Bugel",
+    "pengungsi": 862,
+    "luas": 5000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK43",
+    "lokasi": "Masjid Al Hidayah Kalangan",
+    "wilayah": "Bumirejo (Pereng, Carikan, Cabean, Kalangan, Ngipik, Tempel, Bonosoro)",
+    "pengungsi": 618,
+    "luas": 3575,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK44",
+    "lokasi": "Kantor Desa Wahyuharjo",
+    "wilayah": "Wahyuharjo",
+    "pengungsi": 556,
+    "luas": 3250,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK45",
+    "lokasi": "SMK Muhammadiyah 1 Lendah",
+    "wilayah": "Jatirejo (Kutan)",
+    "pengungsi": 0,
+    "luas": 5200,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK46",
+    "lokasi": "SD Negeri Patuk",
+    "wilayah": "Tirtorahayu",
+    "pengungsi": 1465,
+    "luas": 5775,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK47",
+    "lokasi": "Lapangan Ngremang",
+    "wilayah": "Karangsewu",
+    "pengungsi": 1285,
+    "luas": 7150,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK48",
+    "lokasi": "Masjid Al Ishlah Gandu",
+    "wilayah": "Nomporejo (Gandu, Barongan, Nampan, Sorogenen II)",
+    "pengungsi": 171,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK49",
+    "lokasi": "Lapangan Bola",
+    "wilayah": "Kranggan",
+    "pengungsi": 265,
+    "luas": 11250,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK50",
+    "lokasi": "Kantor Desa Banaran",
+    "wilayah": "Banaran",
+    "pengungsi": 780,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK51",
+    "lokasi": "Kantor Desa Brosot",
+    "wilayah": "Brosot",
+    "pengungsi": 0,
+    "luas": 4500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK52",
+    "lokasi": "Kantor Desa Plumbon",
+    "wilayah": "Plumbon",
+    "pengungsi": 1041,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK53",
+    "lokasi": "Kantor Desa Kedundang",
+    "wilayah": "Kedundang",
+    "pengungsi": 424,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK54",
+    "lokasi": "Kantor Desa Demen",
+    "wilayah": "Demen",
+    "pengungsi": 618,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK55",
+    "lokasi": "Kantor Desa Kulur",
+    "wilayah": "Kulur (Trukan, Tigaron, Bojong Kulur)",
+    "pengungsi": 204,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK56",
+    "lokasi": "SD Negeri Trukan",
+    "wilayah": "Kaligintung (Kaligintung Kidul, Kaligintung Lor, Siwates)",
+    "pengungsi": 442,
+    "luas": 5000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK57",
+    "lokasi": "Kantor Desa Temon Wetan",
+    "wilayah": "Temon Wetan",
+    "pengungsi": 667,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK58",
+    "lokasi": "Kantor Desa Kalidengen",
+    "wilayah": "Kalidengen",
+    "pengungsi": 714,
+    "luas": 2250,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK59",
+    "lokasi": "Kantor Desa Glagah",
+    "wilayah": "Glagah",
+    "pengungsi": 1391,
+    "luas": 2750,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK60",
+    "lokasi": "Kantor Desa Temon Kulon",
+    "wilayah": "Temon Kulon",
+    "pengungsi": 949,
+    "luas": 2750,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK61",
+    "lokasi": "Kantor Desa Kebonrejo",
+    "wilayah": "Kebonrejo",
+    "pengungsi": 640,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK62",
+    "lokasi": "SD Ma'arif Nurul Jannah",
+    "wilayah": "Janten",
+    "pengungsi": 241,
+    "luas": 4000,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK63",
+    "lokasi": "Kantor Desa Palihan",
+    "wilayah": "Palihan",
+    "pengungsi": 778,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK64",
+    "lokasi": "Kantor Desa Karangwuluh",
+    "wilayah": "Karangwuluh",
+    "pengungsi": 389,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK65",
+    "lokasi": "Kantor Desa Sindutan",
+    "wilayah": "Sindutan",
+    "pengungsi": 917,
+    "luas": 2500,
+    "status": "Cukup"
+  },
+  {
+    "kodeTK": "TK66",
+    "lokasi": "Kantor Desa Jangkaran",
+    "wilayah": "Jangkaran",
+    "pengungsi": 0,
+    "luas": 2500,
+    "status": "Cukup"
+  }
+]

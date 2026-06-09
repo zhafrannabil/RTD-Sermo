@@ -149,6 +149,30 @@
 
         </table>
 
+        <div class="quick-stats">
+
+    <div class="stat-card">
+        <h3>57</h3>
+        <p>Desa Terdampak</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>49.618</h3>
+        <p>Jiwa Terdampak</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>13.779</h3>
+        <p>KK Terdampak</p>
+    </div>
+
+    <div class="stat-card">
+        <h3>65</h3>
+        <p>Titik Kumpul</p>
+    </div>
+
+</div>
+
         <!-- STATUS -->
         <div class="status-box">
 
@@ -185,93 +209,100 @@
   </div>
 
   <!-- BOTTOM SECTION -->
-<div class="bottom-section">
+<section class="additional-info">
 
-    <div class="bottom-title">
-        Informasi Tambahan
+    <div class="section-header">
+
+        <h2>Informasi Tambahan</h2>
+
+        <p>
+            Informasi pendukung Rencana Tindak Darurat
+            Bendungan Sermo.
+        </p>
+
     </div>
 
-    <div class="scroll-container">
+    <div class="info-grid">
 
-        <!-- Desa Terdampak -->
+        <!-- DESA TERDAMPAK -->
         <div class="info-card">
 
-    <div class="info-icon">
-        <i class="fas fa-map-marker-alt"></i>
-    </div>
+            <div class="info-icon">
+                <i class="fas fa-map-marker-alt"></i>
+            </div>
 
-    <h4>Desa Terdampak</h4>
+            <h4>Desa Terdampak</h4>
 
-    <p>
-        Informasi wilayah terdampak,
-        jumlah penduduk, dan data
-        desa berdasarkan RTD Bendungan Sermo.
-    </p>
+            <p>
+                Informasi wilayah terdampak,
+                jumlah penduduk, dan data desa
+                berdasarkan RTD Bendungan Sermo.
+            </p>
 
-    <button
-        class="detail-btn"
-        data-bs-toggle="modal"
-        data-bs-target="#desaModal">
+            <button
+                class="detail-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#desaModal">
 
-        Lihat Detail
+                Lihat Detail
 
-    </button>
+            </button>
 
-</div>
+        </div>
 
-        <!-- Jalur Evakuasi -->
+        <!-- EVAKUASI -->
         <div class="info-card">
 
-    <div class="info-icon">
-        <i class="fas fa-person-walking-arrow-right"></i>
-    </div>
+            <div class="info-icon">
+                <i class="fas fa-person-walking-arrow-right"></i>
+            </div>
 
-    <h4>Jalur Evakuasi</h4>
+            <h4>Jalur Evakuasi</h4>
 
-    <p>
-        Informasi jalur evakuasi dan
-        rute penyelamatan masyarakat
-        pada wilayah terdampak.
-    </p>
+            <p>
+                Informasi jalur evakuasi dan
+                rute penyelamatan masyarakat
+                pada wilayah terdampak.
+            </p>
 
-    <button
-        class="detail-btn"
-        data-bs-toggle="modal"
-        data-bs-target="#evakuasiModal">
+            <button
+                class="detail-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#evakuasiModal">
 
-        Lihat Detail
+                Lihat Detail
 
-    </button>
+            </button>
 
-</div>
+        </div>
 
-        <!-- Titik Kumpul -->
+        <!-- TITIK KUMPUL -->
         <div class="info-card">
 
-    <div class="info-icon">
-        <i class="fas fa-people-group"></i>
-    </div>
+            <div class="info-icon">
+                <i class="fas fa-people-group"></i>
+            </div>
 
-    <h4>Lokasi Titik Kumpul</h4>
+            <h4>Lokasi Titik Kumpul</h4>
 
-    <p>
-        Informasi kapasitas dan lokasi
-        titik kumpul berdasarkan
-        RTD Bendungan Sermo.
-    </p>
+            <p>
+                Informasi kapasitas dan lokasi
+                titik kumpul berdasarkan RTD
+                Bendungan Sermo.
+            </p>
 
-    <button
-        class="detail-btn"
-        data-bs-toggle="modal"
-        data-bs-target="#titikKumpulModal">
+            <button
+                class="detail-btn"
+                data-bs-toggle="modal"
+                data-bs-target="#titikKumpulModal">
 
-        Lihat Detail
+                Lihat Detail
 
-    </button>
+            </button>
 
-</div>
+        </div>
 
-        <!-- Dokumen RTD -->
+        <!-- DOKUMEN -->
         <div class="info-card">
 
     <div class="info-icon">
@@ -281,15 +312,17 @@
     <h4>Dokumen RTD</h4>
 
     <p>
-        Dokumen resmi RTD,
-        peta genangan dan SOP
-        evakuasi Bendungan Sermo.
+        Dokumen resmi RTD Bendungan
+        Sermo dan peta RTD sebagai
+        referensi penanganan darurat.
     </p>
 
     <button
-        class="detail-btn">
+        class="detail-btn"
+        data-bs-toggle="modal"
+        data-bs-target="#dokumenModal">
 
-        Buka Dokumen
+        Lihat Dokumen
 
     </button>
 
@@ -297,8 +330,9 @@
 
     </div>
 
-</div>
+</section>
 
+    </div>
 <footer class="footer">
 
     Balai Besar Wilayah Sungai Serayu Opak<br>
@@ -471,6 +505,93 @@
                         </tbody>
 
                     </table>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Modal Dokumen -->
+<div class="modal fade"
+     id="dokumenModal"
+     tabindex="-1">
+
+    <div class="modal-dialog modal-lg">
+
+        <div class="modal-content">
+
+            <div class="modal-header">
+
+                <h5 class="modal-title">
+                    Dokumen RTD Bendungan Sermo
+                </h5>
+
+                <button
+                    type="button"
+                    class="btn-close"
+                    data-bs-dismiss="modal">
+                </button>
+
+            </div>
+
+            <div class="modal-body">
+
+                <div class="document-item">
+
+                    <div>
+
+                        <h6>
+                            Buku RTD Bendungan Sermo 2021
+                        </h6>
+
+                        <small>
+                            Dokumen utama Rencana Tindak Darurat
+                            Bendungan Sermo.
+                        </small>
+
+                    </div>
+
+                    <a
+                        href="https://drive.google.com/drive/folders/1dtLHOaep5O9B-OzdRSiklspDRcet39mG?usp=drive_link"
+                        target="_blank"
+                        class="btn btn-primary">
+
+                        <i class="fas fa-external-link-alt"></i>
+                        Buka
+
+                    </a>
+
+                </div>
+
+                <div class="document-item">
+
+                    <div>
+
+                        <h6>
+                            Peta RTD Sermo
+                        </h6>
+
+                        <small>
+                            Peta genangan, wilayah terdampak,
+                            jalur evakuasi, dan titik kumpul.
+                        </small>
+
+                    </div>
+
+                    <a
+                        href="https://drive.google.com/drive/folders/1dtLHOaep5O9B-OzdRSiklspDRcet39mG?usp=drive_link"
+                        target="_blank"
+                        class="btn btn-primary">
+
+                        <i class="fas fa-external-link-alt"></i>
+                        Buka
+
+                    </a>
 
                 </div>
 

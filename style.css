@@ -406,6 +406,24 @@ overflow:hidden;
 
 }
 
+
+.download-btn{
+    width: 100%;
+    border: none;
+    background: #c82333;
+    color: white;
+    padding: 12px;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+.download-btn:hover{
+    background: #a51c28;
+}
+
 /* =======================================================
    QUICK STATS
 ======================================================= */
